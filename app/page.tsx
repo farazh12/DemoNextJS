@@ -1,4 +1,6 @@
 import UserCard from "./components/UserCard";
+import { signIn } from "next-auth/react";
+import { useState } from "react";
 
 const users = [
   { name: "Faraz Hussain", role: "Android Developer 🚀" },
